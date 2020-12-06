@@ -1,0 +1,24 @@
+Please find attached the demos for the day.
+
+                We have completed following topics for the day:
+•Monolithic vs Microservices Design 
+•Microservices and Need of Messaging APIs
+•Intro to Spring boot ?Spring Boot as automation of Configuration
+?Spring as Maven Plugin
+?Maven basics and m2 Repo
+
+•Spring REST ?Covered HTTP verbs GET,POST,PUT,DELETE
+?Covered @RequestBody and @ResponseBody 
+
+•Spring-REST validation ?Standard
+?Custom validation using annotations
+
+•Content Negotiation: ?Extension Based
+?URL Based
+
+•Using Postman Client and consuming service
+•Spring JPA DATA Repository and CRUD
+
+ 
+
+PS: all the topics we done using hands-on  and case study by the end of the day case study is given on the topics completed.

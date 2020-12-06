@@ -1,0 +1,15 @@
+http://www.baeldung.com/spring-mvc-content-negotiation-json-xml
+
+
+For URL Extension based startegy:
+First, we’re enabling the path extensions strategy.
+
+Then, we’re disabling the URL parameter strategy as well as the Accept header strategy – because we want to only rely on the path extension way of determining the type of the content.
+
+We’re then turning off the Java Activation Framework; JAF can be used as a fallback mechanism to select the output format if the incoming request is not matching any of the strategies we configured. We’re disabling it because we’re going to configure JSON as the default content type.
+
+And finally – we are setting up JSON to be the default. That means if none of the two strategies are matched, all incoming request will be mapped to a controller method that serves JSON.
+
+
+Here they are Settng JAF to false, but please make a not if it is set to that content negotiation does not work,
+hence in our demo it is been set to true.
