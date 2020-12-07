@@ -30,7 +30,7 @@ public class EmployeeController {
 		Collection <Employee> listEmployee = employeeService.getEmployeeDetails();
 		System.out.println(listEmployee);
 		return new ResponseEntity<Collection<Employee>>(listEmployee, HttpStatus.OK);
-	}
+	} 
 	
 	@RequestMapping(value="emp/controller/getDetailsById/{id}",method=RequestMethod.GET,produces=MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Employee> getEmployeeDetailByEmployeeId(@PathVariable("id") int myId){
